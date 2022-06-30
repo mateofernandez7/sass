@@ -1,0 +1,27 @@
+.header {
+    text-align: center;
+    color: yellow;
+    height: 23vh;
+    margin: 50px;
+    background-image: linear-gradient(to right, black, rgb(89, 0, 255));
+    margin-top: 50px;
+   
+    margin-left: 13%;
+    margin-right: 13%;
+    grid-area: header;
+}
+.header h1 {
+    @extend %grosortxtunico;
+    font-size: 30px;
+    margin: top 8px;
+    margin-bottom: 8px;
+   @extend %tipografgen;
+}
+.header p {
+    max-width: 340px;
+    margin: 0 auto;
+    @extend %tipografgen;
+    // @extend %grosortxtunico;
+    font-size: 17px;
+    text-transform: uppercase;
+}

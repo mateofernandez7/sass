@@ -1,0 +1,35 @@
+.nab {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    grid-area: nab;
+}
+.nab img {
+    border: solid 5px yellow;
+    width: 200px;
+    height: 200px;
+}
+.nab ul {
+    list-style: none;
+    @extend %backgroundcolorunico;
+    height: 100%;
+    position: fixed;
+}
+.nab ul a {
+    text-decoration: none;
+    @extend %grosortxtunico;
+    color: rgb(229, 255, 0);
+    @extend %tipografgen;
+    
+}
+.nab li {
+    padding: 30px;
+    height: 80px;
+    text-align: center;
+    &:hover{
+        transform: skewY(20deg);
+        transition: 2s;
+        background-color: rgb(255, 255, 255);
+
+    }
+}

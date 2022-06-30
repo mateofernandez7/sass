@@ -1,0 +1,31 @@
+.section {
+   @extend %extsection;
+}
+.sectionjr {
+    @extend %extsectionjr;
+}
+.section p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+   @extend %tipografgen;
+   @extend %grosortxtunico;
+   
+
+    color: rgb(89, 0, 255);
+    background-image:linear-gradient(to left, yellow, white);
+    margin-left: 42%;
+    margin-right: 42%;
+    border: solid 4px rgb(89, 0, 255);
+}
+.sectionjr img {
+   @extend %extsectjrimg;
+}
+.sectionjr img:hover {
+    @extend %sih;
+
+
+  
+   
+}

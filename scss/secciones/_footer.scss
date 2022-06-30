@@ -1,0 +1,30 @@
+.footer {
+    max-width: 1900px;
+    margin: 60px;
+   @extend %backgroundcolorunico;
+    border: solid 8px yellow;
+    grid-area: footer;}
+.footer ul {
+    padding: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 160px;
+    align-content: center;
+    justify-content: center;}
+.footer li {
+    list-style: none;
+    &:hover{background-color: rgb(141, 224, 216);
+        border: solid 4px yellow;
+        text-decoration: line-through;}}
+.footer a {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(0, 0, 0);
+    @extend %tipografgen;
+    @extend %grosortxtunico;
+    font-size: 22px;
+}
+.footer i {
+    font-size: 30px;
+}
